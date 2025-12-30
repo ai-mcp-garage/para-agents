@@ -1,1 +1,6 @@
+# macOS garbage
 .DS_Store
+**/.DS_Store
+
+# Thumbnails
+._*
