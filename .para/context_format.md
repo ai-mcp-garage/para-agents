@@ -1,7 +1,7 @@
 SYSTEM CONTEXT
 - Year: 2026
 - Tool: Cursor
-- PARA root: '/Users/batteryshark/Downloads/para_method_work'
+- PARA root: '<workspace_root>'
 - My Areas (conceptual): Home, Personal, Career, Tech-Builds. Consult each Area’s AREA.md to understand intent, scope, and boundaries before classifying files.
 - Work projects handled elsewhere: yes
 - Current time horizon: daily / weekly / monthly / quarterly
