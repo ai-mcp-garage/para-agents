@@ -8,6 +8,18 @@ antigravity: put the slash commands in .agent/workflows (why google)
 claude: .claude/commands
 vscode: .github/prompts (wtf microsoft)
 
+## Setup
+
+Run the init command to scaffold your PARA workspace:
+
+```
+/para-init
+```
+
+This will:
+1. Ask if this is a work or personal context
+2. Create the base PARA folders (`Areas/`, `Projects/`, `Archives/`, `Resources/`)
+3. Configure `.para/context_format.md` with your root path
 
 ## Usage Example
 
@@ -19,4 +31,4 @@ Example:
 ```
 
 > [!IMPORTANT]
-> **Before using:** Open `.para/context_format.md` and update the `PARA root` field (currently set to a placeholder) to point to your actual PARA root directory on your filesystem as an absolute path.
+> **Before using:** Ensure `.para/context_format.md` has your `PARA root` set to the correct absolute path. Running `/para-init` will do this for you.

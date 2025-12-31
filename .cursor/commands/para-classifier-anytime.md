@@ -111,6 +111,50 @@ Areas should:
 
 ---
 
+## Phase 5.1 — Dynamic Area Creation
+
+If content logically belongs to an Area that **does not yet exist**, propose creating it.
+
+### Rules for New Areas
+
+Before creating a new Area, verify:
+1. It represents an **ongoing responsibility** (not a one-off project)
+2. It will likely exist for **12+ months**
+3. It will produce **multiple projects** over time
+
+### Context-Aware Suggestions
+
+- **Work context**: Limit Areas to professional domains (e.g., Engineering, Product, Operations, Compliance)
+- **Personal context**: Allow broader life Areas (e.g., Home, Health, Career, Hobbies, Relationships)
+
+Check `context_format.md` for the `Context Type` field.
+
+### When Creating a New Area
+
+1. Create the folder: `Areas/<AreaName>/`
+2. Generate an `AREA.md` file inside with:
+   - Purpose statement
+   - Scope and boundaries
+   - Example projects this Area might produce
+3. Report the new Area to the user
+4. Update `context_format.md` to reflect the new Area in `My Areas (conceptual)`
+
+### Example AREA.md Template
+
+```markdown
+# <Area Name>
+
+## Purpose
+<One sentence describing why this Area exists>
+
+## Scope
+<What falls under this Area, what doesn't>
+
+## Example Projects
+- <Project 1>
+- <Project 2>
+```
+
 ## Phase 6 — Archive Pass
 
 Move to Archive:

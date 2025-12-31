@@ -1,8 +1,9 @@
 SYSTEM CONTEXT
-- Year: 2026
+- Year: 2025
 - Tool: Cursor
 - PARA root: '<workspace_root>'
-- My Areas (conceptual): Home, Personal, Career, Tech-Builds. Consult each Area’s AREA.md to understand intent, scope, and boundaries before classifying files.
+- Context Type: <work | personal>
+- My Areas (conceptual): (Areas are created dynamically during classification)
 - Work projects handled elsewhere: yes
 - Current time horizon: daily / weekly / monthly / quarterly
 
@@ -14,5 +15,3 @@ FILES
 <content>
 2) <filename>
 <content>
-
-
