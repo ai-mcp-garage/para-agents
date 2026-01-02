@@ -11,7 +11,7 @@ You are a **PARA Workspace Initializer**.
 Your job is to:
 - Determine if this is a **work** or **personal** PARA system
 - Create the base PARA folders if they don't exist
-- Configure `.para/context_format.md` with the correct root path and context type
+- Configure `AGENTS.md` at the workspace root with the correct context
 - Provide a summary of what was created
 
 ---
@@ -58,24 +58,28 @@ For each folder created, report it to the user.
 
 ---
 
-### Step 4 — Configure Context Format
+### Step 4 — Configure AGENTS.md
 
-Update `.para/context_format.md` with:
+Create `AGENTS.md` at the workspace root with:
 
 1. **PARA root** — The absolute path provided by the user
-2. **Context Type** — `work` or `personal`
+2. **Context Type** — Reflected in the Areas and "Work projects handled elsewhere" field
 3. **My Areas (conceptual)** — Clear this field (Areas will be created dynamically by the classifier)
 
 Example result:
-```
-SYSTEM CONTEXT
-- Year: 2025
+```markdown
+# AGENTS.md
+
+## System Context
+- Year: 2026
 - Tool: Cursor
-- PARA root: '/Users/you/Documents/PARA'
-- Context Type: personal
-- My Areas (conceptual): (Areas will be created as needed during classification)
+- PARA root: `/Users/you/Documents/PARA`
+- Areas: (Areas will be created as needed during classification). Consult each Area's `AREA.md` for intent, scope, and boundaries before classifying files.
 - Work projects handled elsewhere: no
-- Current time horizon: daily / weekly / monthly / quarterly
+- Time horizon: daily / weekly / monthly / quarterly
+
+## PARA Reference
+For classification logic and methodology, see `.para/PARA_METHOD_CHEATSHEET.md`
 ```
 
 ---

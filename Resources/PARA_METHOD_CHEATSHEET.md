@@ -60,7 +60,7 @@ After category selection:
   - more files of this type are expected
   - the name is clear and < 5 words
 
-🚫 Never create a folder for a single file unless you’re confident it will grow.
+🚫 Never create a folder for a single file unless you're confident it will grow.
 
 ---
 
@@ -74,9 +74,9 @@ After category selection:
 
 ---
 
-## 5️⃣ Special Case: “Pending Projects”
+## 5️⃣ Special Case: "Pending Projects"
 
-If it’s:
+If it's:
 - not started
 - not scheduled
 - not committed
@@ -133,7 +133,7 @@ Inside an Area:
 
 For each Area, ask:
 - Is this still a real responsibility?
-- Am I okay with this never being “done”?
+- Am I okay with this never being "done"?
 - Has it generated projects recently?
 
 If all answers are NO → Archive the Area.
@@ -147,5 +147,4 @@ If all answers are NO → Archive the Area.
 - **Resources = leverage**
 - **Archives = closure**
 
-If classification feels hard, you’re deciding too early. Drop it into Resources and move on.
-
+If classification feels hard, you're deciding too early. Drop it into Resources and move on.

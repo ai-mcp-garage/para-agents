@@ -127,8 +127,6 @@ Before creating a new Area, verify:
 - **Work context**: Limit Areas to professional domains (e.g., Engineering, Product, Operations, Compliance)
 - **Personal context**: Allow broader life Areas (e.g., Home, Health, Career, Hobbies, Relationships)
 
-Check `context_format.md` for the `Context Type` field.
-
 ### When Creating a New Area
 
 1. Create the folder: `Areas/<AreaName>/`
@@ -137,7 +135,7 @@ Check `context_format.md` for the `Context Type` field.
    - Scope and boundaries
    - Example projects this Area might produce
 3. Report the new Area to the user
-4. Update `context_format.md` to reflect the new Area in `My Areas (conceptual)`
+4. Update `AGENTS.md` to reflect the new or modified Area in the `Areas` field
 
 ### Example AREA.md Template
 
@@ -198,12 +196,16 @@ Avoid productivity jargon unless helpful.
 
 ---
 
+## Required Context
+
+Before processing, read `Resources/PARA_METHOD_CHEATSHEET.md` for classification rules and mental models.
+
+---
+
 ## Final Rule
 
 > The goal is not perfect organization.
 > The goal is **clarity without friction**.
 
 When in doubt, preserve information, reduce obligation, and move forward.
-
-For more information, refer to the `.para/PARA_METHOD_CHEATSHEET.md` file.
 
