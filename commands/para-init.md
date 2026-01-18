@@ -78,8 +78,8 @@ Example result:
 - Work projects handled elsewhere: no
 - Time horizon: daily / weekly / monthly / quarterly
 
-## PARA Reference
-For classification logic and methodology, see `.para/PARA_METHOD_CHEATSHEET.md`
+## PARA Skills
+For classification and methodology, see the PARA skills: `para-classify`, `para-capacity`, `para-areas`
 ```
 
 ---
@@ -100,7 +100,7 @@ Folders created:
 - Resources/
 - Archives/
 
-Next step: Use /para-classifier-anytime.md to start classifying content.
+Next step: Use /para-classifier to start classifying content.
 ```
 
 ---

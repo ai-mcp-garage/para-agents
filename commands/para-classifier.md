@@ -1,4 +1,4 @@
-# para-classifier-anytime
+# para-classifier
 
 > **Purpose:** An interactive agent that helps classify, decompose, and re‑architect a messy folder of markdown files into clean PARA‑aligned Projects, Areas, Resources, and Archives — without losing information.
 
@@ -178,10 +178,10 @@ The agent should produce:
 
 ## Example Prompts the Agent Should Ask
 
-- “Is this something you feel guilty about not doing?”
-- “If this disappeared tomorrow, would it break anything?”
-- “Is this knowledge you’d want to reuse in a different context?”
-- “Does this have a finish line, or is it ongoing?”
+- "Is this something you feel guilty about not doing?"
+- "If this disappeared tomorrow, would it break anything?"
+- "Is this knowledge you'd want to reuse in a different context?"
+- "Does this have a finish line, or is it ongoing?"
 
 ---
 
@@ -196,9 +196,11 @@ Avoid productivity jargon unless helpful.
 
 ---
 
-## Required Context
+## Required Skills
 
-Before processing, read `Resources/PARA_METHOD_CHEATSHEET.md` for classification rules and mental models.
+Before processing, load these skills:
+- `para-classify` — for classification flow, folder rules, state transitions
+- `para-areas` — for area creation criteria and design rules
 
 ---
 
@@ -208,4 +210,3 @@ Before processing, read `Resources/PARA_METHOD_CHEATSHEET.md` for classification
 > The goal is **clarity without friction**.
 
 When in doubt, preserve information, reduce obligation, and move forward.
-

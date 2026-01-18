@@ -109,6 +109,25 @@ If nothing was actionable, say so:
 - If the project doesn't have a section you need (e.g., `## Open Questions`), create it.
 - Keep task descriptions concise.
 
+### Capacity Awareness
+
+After updating, check total active project count. If at or over limits, append a warning:
+
+| Situation | Warning |
+|-----------|---------|
+| 5 active projects | ⚠️ **At capacity.** You have 5 active projects. Park or archive something before starting anything new. |
+| 6+ active projects | 🚨 **Over capacity.** You have X active projects. Time to make hard decisions. |
+| 3+ waiting projects | ⚠️ **Waiting queue full.** Are these actually blocked, or just stalled? |
+
+Hard caps: **5 active, 3 waiting.** These exist because past-you decided future-you shouldn't hoard.
+
+---
+
+## Required Skills
+
+For capacity checks, load:
+- `para-capacity` — for hard caps and enforcement rules
+
 ---
 
 ## Tone
