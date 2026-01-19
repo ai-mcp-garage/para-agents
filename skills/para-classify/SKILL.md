@@ -102,6 +102,20 @@ The moment the user says *yes* and commits, promote it to Project.
 
 ---
 
+## Project Completion (Required Fields)
+
+When archiving a project, update the overview with:
+
+```
+**Status:** Complete (or Abandoned)
+**Started:** YYYY-MM-DD
+**Completed:** YYYY-MM-DD
+```
+
+This tracks how long projects actually take. If `Started` date is missing, check file creation date or ask.
+
+---
+
 ## Decision Shortcuts
 
 | Situation | Classification |
